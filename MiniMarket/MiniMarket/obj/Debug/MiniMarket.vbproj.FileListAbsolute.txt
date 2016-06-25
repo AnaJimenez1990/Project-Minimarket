@@ -1,0 +1,34 @@
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe.config
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\bin\Debug\MiniMarket.pdb
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\bin\Debug\MiniMarket.xml
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Login.resources
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Facturar.resources
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Login1.resources
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.MenuPrincipal.resources
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\MiniMarket.vbproj.GenerateResource.Cache
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\MiniMarket.exe
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\MiniMarket.xml
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\MiniMarket.pdb
+C:\Users\KAVX PC\Documents\Visual Studio 2013\Projects\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Pedidos.resources
+E:\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe.config
+E:\MiniMarket\MiniMarket\obj\Debug\MiniMarket.exe
+E:\MiniMarket\MiniMarket\obj\Debug\MiniMarket.xml
+E:\MiniMarket\MiniMarket\obj\Debug\MiniMarket.pdb
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe.config
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\MiniMarket.exe
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\MiniMarket.xml
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\MiniMarket.pdb
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\bin\Debug\MiniMarket.pdb
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\bin\Debug\MiniMarket.xml
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\MiniMarket.vbprojResolveAssemblyReference.cache
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Pedidos.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Login.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Facturar.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Login1.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.MenuPrincipal.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\MiniMarket.vbproj.GenerateResource.Cache
