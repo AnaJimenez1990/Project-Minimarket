@@ -41,6 +41,7 @@ Partial Class Facturar
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -53,24 +54,23 @@ Partial Class Facturar
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
         Me.Label1.Location = New System.Drawing.Point(191, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(191, 45)
+        Me.Label1.Size = New System.Drawing.Size(225, 42)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Facturacion"
         '
@@ -160,7 +160,7 @@ Partial Class Facturar
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(358, 20)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(63, 19)
@@ -177,7 +177,7 @@ Partial Class Facturar
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.ForeColor = System.Drawing.Color.Black
+        Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(296, 20)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(64, 19)
@@ -194,7 +194,7 @@ Partial Class Facturar
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label6.Location = New System.Drawing.Point(228, 20)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(47, 19)
@@ -211,7 +211,7 @@ Partial Class Facturar
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label5.Location = New System.Drawing.Point(73, 22)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(80, 19)
@@ -228,7 +228,7 @@ Partial Class Facturar
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(17, 20)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 19)
@@ -255,6 +255,17 @@ Partial Class Facturar
         Me.GroupBox3.TabIndex = 4
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Detalle Factura"
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(7, 19)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.ReadOnly = True
+        Me.DataGridView1.Size = New System.Drawing.Size(473, 150)
+        Me.DataGridView1.TabIndex = 16
         '
         'Button2
         '
@@ -379,17 +390,6 @@ Partial Class Facturar
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "Subtotal.............................."
         '
-        'DataGridView1
-        '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.AllowUserToDeleteRows = False
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(7, 19)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(473, 150)
-        Me.DataGridView1.TabIndex = 16
-        '
         'Facturar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -409,10 +409,10 @@ Partial Class Facturar
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

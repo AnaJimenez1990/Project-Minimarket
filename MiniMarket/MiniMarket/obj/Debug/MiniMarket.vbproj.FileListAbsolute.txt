@@ -32,3 +32,7 @@ C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.
 C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.MenuPrincipal.resources
 C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Resources.resources
 C:\Users\PC1\Desktop\IngeSo\MiniMarket\MiniMarket\obj\Debug\MiniMarket.vbproj.GenerateResource.Cache
+C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe.config
+C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.exe
+C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.xml
+C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.pdb
