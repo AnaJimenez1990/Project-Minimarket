@@ -36,3 +36,7 @@ C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMar
 C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.exe
 C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.xml
 C:\Users\ErcoleGianfranco\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.pdb
+C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\bin\Debug\MiniMarket.exe.config
+C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.exe
+C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.xml
+C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.pdb
