@@ -67,10 +67,11 @@ Partial Class Facturar
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Label1.Location = New System.Drawing.Point(191, 9)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Label1.Location = New System.Drawing.Point(255, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(225, 42)
+        Me.Label1.Size = New System.Drawing.Size(280, 54)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Facturacion"
         '
@@ -82,46 +83,54 @@ Partial Class Facturar
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 57)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 70)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(565, 50)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(753, 62)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Encabezado"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(395, 17)
+        Me.TextBox2.Location = New System.Drawing.Point(527, 21)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(109, 26)
+        Me.TextBox2.Size = New System.Drawing.Size(144, 30)
         Me.TextBox2.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(296, 20)
+        Me.Label3.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(395, 25)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(93, 19)
+        Me.Label3.Size = New System.Drawing.Size(116, 23)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Fecha Actual"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(120, 17)
+        Me.TextBox1.Location = New System.Drawing.Point(160, 21)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(106, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(140, 30)
         Me.TextBox1.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(6, 20)
+        Me.Label2.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(8, 25)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(108, 19)
+        Me.Label2.Size = New System.Drawing.Size(129, 23)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "No. de Factura"
         '
@@ -141,18 +150,21 @@ Partial Class Facturar
         Me.GroupBox2.Controls.Add(Me.TextBox3)
         Me.GroupBox2.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold)
         Me.GroupBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 126)
+        Me.GroupBox2.Location = New System.Drawing.Point(16, 155)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(565, 83)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(753, 102)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Productos"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(486, 35)
+        Me.Button1.Location = New System.Drawing.Point(648, 43)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(71, 33)
+        Me.Button1.Size = New System.Drawing.Size(95, 41)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "Ingresar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -160,86 +172,101 @@ Partial Class Facturar
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(358, 20)
+        Me.Label8.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label8.Location = New System.Drawing.Point(477, 25)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(63, 19)
+        Me.Label8.Size = New System.Drawing.Size(80, 23)
         Me.Label8.TabIndex = 13
         Me.Label8.Text = "Subtotal"
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(362, 42)
+        Me.TextBox7.Location = New System.Drawing.Point(483, 52)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(60, 26)
+        Me.TextBox7.Size = New System.Drawing.Size(79, 30)
         Me.TextBox7.TabIndex = 12
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(296, 20)
+        Me.Label7.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label7.Location = New System.Drawing.Point(395, 25)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(64, 19)
+        Me.Label7.Size = New System.Drawing.Size(85, 23)
         Me.Label7.TabIndex = 11
         Me.Label7.Text = "Cantidad"
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(296, 42)
+        Me.TextBox6.Location = New System.Drawing.Point(395, 52)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(60, 26)
+        Me.TextBox6.Size = New System.Drawing.Size(79, 30)
         Me.TextBox6.TabIndex = 10
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label6.Location = New System.Drawing.Point(228, 20)
+        Me.Label6.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(304, 25)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(47, 19)
+        Me.Label6.Size = New System.Drawing.Size(61, 23)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "Precio"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(232, 42)
+        Me.TextBox5.Location = New System.Drawing.Point(309, 52)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(58, 26)
+        Me.TextBox5.Size = New System.Drawing.Size(76, 30)
         Me.TextBox5.TabIndex = 8
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label5.Location = New System.Drawing.Point(73, 22)
+        Me.Label5.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(97, 27)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(80, 19)
+        Me.Label5.Size = New System.Drawing.Size(108, 23)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Descripcion"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(73, 42)
+        Me.TextBox4.Location = New System.Drawing.Point(97, 52)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(153, 26)
+        Me.TextBox4.Size = New System.Drawing.Size(203, 30)
         Me.TextBox4.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(17, 20)
+        Me.Label4.Font = New System.Drawing.Font("Constantia", 11.25!)
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(23, 25)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(50, 19)
+        Me.Label4.Size = New System.Drawing.Size(68, 23)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Codigo"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(10, 42)
+        Me.TextBox3.Location = New System.Drawing.Point(13, 52)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(57, 26)
+        Me.TextBox3.Size = New System.Drawing.Size(75, 30)
         Me.TextBox3.TabIndex = 4
         '
         'GroupBox3
@@ -249,9 +276,11 @@ Partial Class Facturar
         Me.GroupBox3.Controls.Add(Me.Button2)
         Me.GroupBox3.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.GroupBox3.Location = New System.Drawing.Point(12, 215)
+        Me.GroupBox3.Location = New System.Drawing.Point(16, 265)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(565, 171)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Size = New System.Drawing.Size(753, 210)
         Me.GroupBox3.TabIndex = 4
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Detalle Factura"
@@ -261,17 +290,19 @@ Partial Class Facturar
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(7, 19)
+        Me.DataGridView1.Location = New System.Drawing.Point(9, 23)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(473, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(631, 185)
         Me.DataGridView1.TabIndex = 16
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(486, 25)
+        Me.Button2.Location = New System.Drawing.Point(648, 31)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(71, 33)
+        Me.Button2.Size = New System.Drawing.Size(95, 41)
         Me.Button2.TabIndex = 15
         Me.Button2.Text = "Eliminar"
         Me.Button2.UseVisualStyleBackColor = True
@@ -284,36 +315,41 @@ Partial Class Facturar
         Me.GroupBox4.Controls.Add(Me.Button5)
         Me.GroupBox4.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold)
         Me.GroupBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.GroupBox4.Location = New System.Drawing.Point(16, 392)
+        Me.GroupBox4.Location = New System.Drawing.Point(21, 482)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(222, 129)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Size = New System.Drawing.Size(296, 159)
         Me.GroupBox4.TabIndex = 5
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Acciones"
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(125, 25)
+        Me.Button3.Location = New System.Drawing.Point(167, 31)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(83, 33)
+        Me.Button3.Size = New System.Drawing.Size(111, 41)
         Me.Button3.TabIndex = 16
         Me.Button3.Text = "Descartar"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(6, 25)
+        Me.Button4.Location = New System.Drawing.Point(40, 91)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(84, 33)
+        Me.Button4.Size = New System.Drawing.Size(217, 41)
         Me.Button4.TabIndex = 17
-        Me.Button4.Text = "Finalizar"
+        Me.Button4.Text = "Finalizar e Imprimir"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(6, 74)
+        Me.Button5.Location = New System.Drawing.Point(8, 31)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(84, 33)
+        Me.Button5.Size = New System.Drawing.Size(112, 41)
         Me.Button5.TabIndex = 18
         Me.Button5.Text = "Salir"
         Me.Button5.UseVisualStyleBackColor = True
@@ -329,32 +365,37 @@ Partial Class Facturar
         Me.GroupBox5.Controls.Add(Me.Label9)
         Me.GroupBox5.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold)
         Me.GroupBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.GroupBox5.Location = New System.Drawing.Point(260, 392)
+        Me.GroupBox5.Location = New System.Drawing.Point(347, 482)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(317, 129)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox5.Size = New System.Drawing.Size(423, 159)
         Me.GroupBox5.TabIndex = 6
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Totales"
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(182, 83)
+        Me.TextBox10.Location = New System.Drawing.Point(243, 102)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(85, 26)
+        Me.TextBox10.Size = New System.Drawing.Size(112, 30)
         Me.TextBox10.TabIndex = 17
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(182, 52)
+        Me.TextBox9.Location = New System.Drawing.Point(243, 64)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(85, 26)
+        Me.TextBox9.Size = New System.Drawing.Size(112, 30)
         Me.TextBox9.TabIndex = 16
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(182, 21)
+        Me.TextBox8.Location = New System.Drawing.Point(243, 26)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(85, 26)
+        Me.TextBox8.Size = New System.Drawing.Size(112, 30)
         Me.TextBox8.TabIndex = 15
         '
         'Label11
@@ -362,9 +403,10 @@ Partial Class Facturar
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(6, 89)
+        Me.Label11.Location = New System.Drawing.Point(8, 110)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(180, 18)
+        Me.Label11.Size = New System.Drawing.Size(226, 23)
         Me.Label11.TabIndex = 2
         Me.Label11.Text = "Total..................................."
         '
@@ -373,9 +415,10 @@ Partial Class Facturar
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(6, 55)
+        Me.Label10.Location = New System.Drawing.Point(8, 68)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(188, 18)
+        Me.Label10.Size = New System.Drawing.Size(237, 23)
         Me.Label10.TabIndex = 1
         Me.Label10.Text = "Impuesto.............................."
         '
@@ -384,24 +427,26 @@ Partial Class Facturar
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(6, 25)
+        Me.Label9.Location = New System.Drawing.Point(8, 31)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(182, 18)
+        Me.Label9.Size = New System.Drawing.Size(230, 23)
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "Subtotal.............................."
         '
         'Facturar
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Wallpapers_HD_By_El_Topoloco__17_
-        Me.ClientSize = New System.Drawing.Size(592, 526)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(789, 647)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Facturar"
         Me.Text = "Facturar"
         Me.GroupBox1.ResumeLayout(False)

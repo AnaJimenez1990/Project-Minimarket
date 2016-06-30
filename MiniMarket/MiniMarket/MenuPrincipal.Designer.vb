@@ -48,9 +48,10 @@ Partial Class MenuPrincipal
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Script MT Bold", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label1.Location = New System.Drawing.Point(215, 31)
+        Me.Label1.Location = New System.Drawing.Point(287, 38)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(254, 44)
+        Me.Label1.Size = New System.Drawing.Size(318, 57)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Menu principal"
         '
@@ -60,9 +61,10 @@ Partial Class MenuPrincipal
         Me.lblRedVenta.BackColor = System.Drawing.Color.Transparent
         Me.lblRedVenta.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRedVenta.ForeColor = System.Drawing.Color.Lime
-        Me.lblRedVenta.Location = New System.Drawing.Point(38, 180)
+        Me.lblRedVenta.Location = New System.Drawing.Point(51, 222)
+        Me.lblRedVenta.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblRedVenta.Name = "lblRedVenta"
-        Me.lblRedVenta.Size = New System.Drawing.Size(85, 25)
+        Me.lblRedVenta.Size = New System.Drawing.Size(105, 32)
         Me.lblRedVenta.TabIndex = 1
         Me.lblRedVenta.Text = "Facturar"
         '
@@ -70,9 +72,10 @@ Partial Class MenuPrincipal
         '
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(43, 102)
+        Me.Button1.Location = New System.Drawing.Point(57, 126)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 75)
+        Me.Button1.Size = New System.Drawing.Size(100, 92)
         Me.Button1.TabIndex = 2
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -82,9 +85,10 @@ Partial Class MenuPrincipal
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Lime
-        Me.Label2.Location = New System.Drawing.Point(144, 180)
+        Me.Label2.Location = New System.Drawing.Point(192, 222)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(160, 25)
+        Me.Label2.Size = New System.Drawing.Size(196, 32)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Factura Compras"
         '
@@ -92,9 +96,10 @@ Partial Class MenuPrincipal
         '
         Me.lblRegCompra.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.productos
         Me.lblRegCompra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.lblRegCompra.Location = New System.Drawing.Point(43, 255)
+        Me.lblRegCompra.Location = New System.Drawing.Point(57, 314)
+        Me.lblRegCompra.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblRegCompra.Name = "lblRegCompra"
-        Me.lblRegCompra.Size = New System.Drawing.Size(75, 71)
+        Me.lblRegCompra.Size = New System.Drawing.Size(100, 87)
         Me.lblRegCompra.TabIndex = 4
         Me.lblRegCompra.TabStop = False
         Me.lblRegCompra.UseVisualStyleBackColor = True
@@ -105,9 +110,10 @@ Partial Class MenuPrincipal
         Me.lblRegProducto.BackColor = System.Drawing.Color.Transparent
         Me.lblRegProducto.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegProducto.ForeColor = System.Drawing.Color.Lime
-        Me.lblRegProducto.Location = New System.Drawing.Point(30, 319)
+        Me.lblRegProducto.Location = New System.Drawing.Point(40, 393)
+        Me.lblRegProducto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblRegProducto.Name = "lblRegProducto"
-        Me.lblRegProducto.Size = New System.Drawing.Size(99, 25)
+        Me.lblRegProducto.Size = New System.Drawing.Size(123, 32)
         Me.lblRegProducto.TabIndex = 5
         Me.lblRegProducto.Text = "Productos"
         '
@@ -115,9 +121,10 @@ Partial Class MenuPrincipal
         '
         Me.Button2.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.compra
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.Location = New System.Drawing.Point(196, 102)
+        Me.Button2.Location = New System.Drawing.Point(261, 126)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 75)
+        Me.Button2.Size = New System.Drawing.Size(100, 92)
         Me.Button2.TabIndex = 6
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -127,9 +134,10 @@ Partial Class MenuPrincipal
         Me.lblRegEmple.BackColor = System.Drawing.Color.Transparent
         Me.lblRegEmple.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegEmple.ForeColor = System.Drawing.Color.Lime
-        Me.lblRegEmple.Location = New System.Drawing.Point(191, 318)
+        Me.lblRegEmple.Location = New System.Drawing.Point(255, 391)
+        Me.lblRegEmple.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblRegEmple.Name = "lblRegEmple"
-        Me.lblRegEmple.Size = New System.Drawing.Size(106, 25)
+        Me.lblRegEmple.Size = New System.Drawing.Size(130, 32)
         Me.lblRegEmple.TabIndex = 7
         Me.lblRegEmple.Text = "Empleados"
         '
@@ -139,9 +147,10 @@ Partial Class MenuPrincipal
         Me.lblRegProve.BackColor = System.Drawing.Color.Transparent
         Me.lblRegProve.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRegProve.ForeColor = System.Drawing.Color.Lime
-        Me.lblRegProve.Location = New System.Drawing.Point(338, 319)
+        Me.lblRegProve.Location = New System.Drawing.Point(451, 393)
+        Me.lblRegProve.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblRegProve.Name = "lblRegProve"
-        Me.lblRegProve.Size = New System.Drawing.Size(115, 25)
+        Me.lblRegProve.Size = New System.Drawing.Size(145, 32)
         Me.lblRegProve.TabIndex = 9
         Me.lblRegProve.Text = "Proveedores"
         '
@@ -151,9 +160,10 @@ Partial Class MenuPrincipal
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Lime
-        Me.Label3.Location = New System.Drawing.Point(338, 180)
+        Me.Label3.Location = New System.Drawing.Point(451, 222)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(79, 25)
+        Me.Label3.Size = New System.Drawing.Size(98, 32)
         Me.Label3.TabIndex = 11
         Me.Label3.Text = "Pedidos"
         '
@@ -161,9 +171,10 @@ Partial Class MenuPrincipal
         '
         Me.Button5.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Product_sale_report_icon
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.Location = New System.Drawing.Point(343, 102)
+        Me.Button5.Location = New System.Drawing.Point(457, 126)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 75)
+        Me.Button5.Size = New System.Drawing.Size(100, 92)
         Me.Button5.TabIndex = 12
         Me.Button5.UseVisualStyleBackColor = True
         '
@@ -173,9 +184,10 @@ Partial Class MenuPrincipal
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Lime
-        Me.Label4.Location = New System.Drawing.Point(492, 180)
+        Me.Label4.Location = New System.Drawing.Point(656, 222)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(102, 25)
+        Me.Label4.Size = New System.Drawing.Size(125, 32)
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "Inventario"
         '
@@ -183,9 +195,10 @@ Partial Class MenuPrincipal
         '
         Me.Button6.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.inventario
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.Location = New System.Drawing.Point(497, 102)
+        Me.Button6.Location = New System.Drawing.Point(663, 126)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 75)
+        Me.Button6.Size = New System.Drawing.Size(100, 92)
         Me.Button6.TabIndex = 14
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -193,9 +206,10 @@ Partial Class MenuPrincipal
         '
         Me.btnEmpleado.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.empleados
         Me.btnEmpleado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnEmpleado.Location = New System.Drawing.Point(196, 244)
+        Me.btnEmpleado.Location = New System.Drawing.Point(261, 300)
+        Me.btnEmpleado.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnEmpleado.Name = "btnEmpleado"
-        Me.btnEmpleado.Size = New System.Drawing.Size(75, 75)
+        Me.btnEmpleado.Size = New System.Drawing.Size(100, 92)
         Me.btnEmpleado.TabIndex = 15
         Me.btnEmpleado.TabStop = False
         Me.btnEmpleado.UseVisualStyleBackColor = True
@@ -204,9 +218,10 @@ Partial Class MenuPrincipal
         '
         Me.btnProveedores.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.proveedor
         Me.btnProveedores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnProveedores.Location = New System.Drawing.Point(343, 244)
+        Me.btnProveedores.Location = New System.Drawing.Point(457, 300)
+        Me.btnProveedores.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnProveedores.Name = "btnProveedores"
-        Me.btnProveedores.Size = New System.Drawing.Size(75, 75)
+        Me.btnProveedores.Size = New System.Drawing.Size(100, 92)
         Me.btnProveedores.TabIndex = 16
         Me.btnProveedores.TabStop = False
         Me.btnProveedores.UseVisualStyleBackColor = True
@@ -215,9 +230,10 @@ Partial Class MenuPrincipal
         '
         Me.Button4.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources._exit
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.Location = New System.Drawing.Point(497, 244)
+        Me.Button4.Location = New System.Drawing.Point(663, 300)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 75)
+        Me.Button4.Size = New System.Drawing.Size(100, 92)
         Me.Button4.TabIndex = 17
         Me.Button4.TabStop = False
         Me.Button4.UseVisualStyleBackColor = True
@@ -228,18 +244,19 @@ Partial Class MenuPrincipal
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Lime
-        Me.Label5.Location = New System.Drawing.Point(492, 319)
+        Me.Label5.Location = New System.Drawing.Point(656, 393)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 25)
+        Me.Label5.Size = New System.Drawing.Size(64, 32)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "Salir"
         '
         'MenuPrincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.back1
-        Me.ClientSize = New System.Drawing.Size(723, 497)
+        Me.ClientSize = New System.Drawing.Size(785, 591)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.btnProveedores)
@@ -257,6 +274,7 @@ Partial Class MenuPrincipal
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblRedVenta)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MenuPrincipal"
         Me.Text = "."
         Me.ResumeLayout(False)
