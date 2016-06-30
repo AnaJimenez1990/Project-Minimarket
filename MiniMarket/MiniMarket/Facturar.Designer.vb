@@ -82,7 +82,7 @@ Partial Class Facturar
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Font = New System.Drawing.Font("Constantia", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.GroupBox1.Location = New System.Drawing.Point(16, 70)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -98,7 +98,7 @@ Partial Class Facturar
         Me.TextBox2.Location = New System.Drawing.Point(527, 21)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(144, 30)
+        Me.TextBox2.Size = New System.Drawing.Size(144, 32)
         Me.TextBox2.TabIndex = 3
         '
         'Label3
@@ -119,7 +119,7 @@ Partial Class Facturar
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(140, 30)
+        Me.TextBox1.Size = New System.Drawing.Size(140, 32)
         Me.TextBox1.TabIndex = 1
         '
         'Label2
@@ -148,7 +148,7 @@ Partial Class Facturar
         Me.GroupBox2.Controls.Add(Me.TextBox4)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.TextBox3)
-        Me.GroupBox2.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.GroupBox2.Font = New System.Drawing.Font("Constantia", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GroupBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.GroupBox2.Location = New System.Drawing.Point(16, 155)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -186,7 +186,7 @@ Partial Class Facturar
         Me.TextBox7.Location = New System.Drawing.Point(483, 52)
         Me.TextBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(79, 30)
+        Me.TextBox7.Size = New System.Drawing.Size(79, 32)
         Me.TextBox7.TabIndex = 12
         '
         'Label7
@@ -206,7 +206,7 @@ Partial Class Facturar
         Me.TextBox6.Location = New System.Drawing.Point(395, 52)
         Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(79, 30)
+        Me.TextBox6.Size = New System.Drawing.Size(79, 32)
         Me.TextBox6.TabIndex = 10
         '
         'Label6
@@ -226,7 +226,7 @@ Partial Class Facturar
         Me.TextBox5.Location = New System.Drawing.Point(309, 52)
         Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(76, 30)
+        Me.TextBox5.Size = New System.Drawing.Size(76, 32)
         Me.TextBox5.TabIndex = 8
         '
         'Label5
@@ -246,7 +246,7 @@ Partial Class Facturar
         Me.TextBox4.Location = New System.Drawing.Point(97, 52)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(203, 30)
+        Me.TextBox4.Size = New System.Drawing.Size(203, 32)
         Me.TextBox4.TabIndex = 6
         '
         'Label4
@@ -266,7 +266,7 @@ Partial Class Facturar
         Me.TextBox3.Location = New System.Drawing.Point(13, 52)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(75, 30)
+        Me.TextBox3.Size = New System.Drawing.Size(75, 32)
         Me.TextBox3.TabIndex = 4
         '
         'GroupBox3
@@ -274,7 +274,7 @@ Partial Class Facturar
         Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox3.Controls.Add(Me.DataGridView1)
         Me.GroupBox3.Controls.Add(Me.Button2)
-        Me.GroupBox3.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Font = New System.Drawing.Font("Constantia", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GroupBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.GroupBox3.Location = New System.Drawing.Point(16, 265)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -313,7 +313,7 @@ Partial Class Facturar
         Me.GroupBox4.Controls.Add(Me.Button3)
         Me.GroupBox4.Controls.Add(Me.Button4)
         Me.GroupBox4.Controls.Add(Me.Button5)
-        Me.GroupBox4.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.GroupBox4.Font = New System.Drawing.Font("Constantia", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GroupBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.GroupBox4.Location = New System.Drawing.Point(21, 482)
         Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -363,7 +363,7 @@ Partial Class Facturar
         Me.GroupBox5.Controls.Add(Me.Label11)
         Me.GroupBox5.Controls.Add(Me.Label10)
         Me.GroupBox5.Controls.Add(Me.Label9)
-        Me.GroupBox5.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.GroupBox5.Font = New System.Drawing.Font("Constantia", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GroupBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.GroupBox5.Location = New System.Drawing.Point(347, 482)
         Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -379,7 +379,7 @@ Partial Class Facturar
         Me.TextBox10.Location = New System.Drawing.Point(243, 102)
         Me.TextBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(112, 30)
+        Me.TextBox10.Size = New System.Drawing.Size(112, 32)
         Me.TextBox10.TabIndex = 17
         '
         'TextBox9
@@ -387,7 +387,7 @@ Partial Class Facturar
         Me.TextBox9.Location = New System.Drawing.Point(243, 64)
         Me.TextBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(112, 30)
+        Me.TextBox9.Size = New System.Drawing.Size(112, 32)
         Me.TextBox9.TabIndex = 16
         '
         'TextBox8
@@ -395,7 +395,7 @@ Partial Class Facturar
         Me.TextBox8.Location = New System.Drawing.Point(243, 26)
         Me.TextBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(112, 30)
+        Me.TextBox8.Size = New System.Drawing.Size(112, 32)
         Me.TextBox8.TabIndex = 15
         '
         'Label11
