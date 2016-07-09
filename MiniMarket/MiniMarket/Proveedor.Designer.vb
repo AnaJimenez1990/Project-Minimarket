@@ -153,14 +153,20 @@ Partial Class Proveedor
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.MediumAquamarine
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.Button1.Location = New System.Drawing.Point(13, 529)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+=======
+        Me.Button1.ForeColor = System.Drawing.Color.Olive
+        Me.Button1.Location = New System.Drawing.Point(10, 430)
+>>>>>>> origin/master
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(119, 41)
         Me.Button1.TabIndex = 11
         Me.Button1.Text = "Agregar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
