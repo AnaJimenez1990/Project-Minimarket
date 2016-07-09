@@ -48,3 +48,4 @@ C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Deb
 C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Resources.resources
 C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Proveedor.resources
 C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\MiniMarket.vbproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\GitHub\Project-Minimarket\MiniMarket\MiniMarket\obj\Debug\WindowsApplication1.Pedido.resources
